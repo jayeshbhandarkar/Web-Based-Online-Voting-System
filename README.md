@@ -1,16 +1,16 @@
 # Web-Based-Online-Voting-System
 
-# ONLINE VOTING SYSTEM.
+  ONLINE VOTING SYSTEM.
   ------ ------ ------
 
-# ADMIN PANEL LOGIN DETAILS.
+  ADMIN PANEL LOGIN DETAILS.
   ----- ----- ----- -------
 
   Username: ssvps@gmail.com
   Password: pass@123
 
 
-# Installation Steps for "Online Voting System".
+  Installation Steps for "Online Voting System".
   ------------ ----- --- ------- ------ -------
 
 1) Download the Zip File.
@@ -26,5 +26,5 @@
 7) Hence, the Project get Successfully Installed.
 
        
-          ********** Thankyou **********
+          ------------ Thankyou ------------
      
