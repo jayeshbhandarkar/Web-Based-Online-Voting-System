@@ -1,0 +1,442 @@
+* {
+    margin: 0px;
+    font-family: 'Bahnschrift Light';
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background: linear-gradient(rgb(255, 255, 255,0.1),rgb(255, 255, 255,0.1)), url(../res/8.png);
+    background-size: 100% 100%;
+}
+
+.heading {
+    text-align: center;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+/* header start */
+.header {
+    height: 3rem;
+    overflow: auto;
+    background: #222d32;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header .menu-bar,
+.header .logo {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    float: left;
+    cursor: pointer;
+}
+
+.header .logo {
+    margin-top: 0.75rem;
+}
+
+.header #hide {
+    display: none;
+}
+
+.header .profile {
+    float: right;
+    margin-right: 1rem;
+}
+
+.header .profile img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 2px;
+    float: left;
+    cursor: pointer;
+}
+
+.header .profile label {
+    float: right;
+    margin-top: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* header close */
+
+/* menu start */
+#menu {
+    width: 0rem;
+    height: 100%;
+    background: #222d32;
+    overflow: auto;
+    color: #b8c7ce;
+    position: fixed;
+    transition: width 0.5s;
+}
+
+#menu .menu-header {
+    background: #1a2226;
+    color: #4b646f;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu-item,
+.menu-item a {
+    padding: 15px 5px;
+    text-decoration: none;
+    color: #b8c7ce;
+    font-size: large;
+    font-weight: 900;
+}
+
+.menu-item a {
+    margin: 1rem;
+}
+
+/* menu end */
+
+/* main */
+#main {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    float: right;
+}
+
+#main .info-box {
+    height: 10rem;
+    width: 18rem;
+    margin: 0.5rem;
+    border: 1px solid;
+    float: left;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.info-box h1,
+.info-box h3 {
+    margin: 1rem;
+}
+
+.info-box a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 4px;
+    margin-top: 45px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#box1 {
+    background-image: linear-gradient(rgba(255, 68, 255, 0.9), rgba(255, 68, 255, 0.9)), url('../res/users-solid.svg');
+}
+
+#box2 {
+    background-image: linear-gradient(rgba(65, 105, 225, 0.9), rgba(65, 105, 225, 0.9)), url('../res/black-tie-brands.svg');
+}
+
+#box3 {
+    background-image: linear-gradient(rgba(2, 170, 2, 0.9), rgba(2, 170, 2, 0.9)), url('../res/check-to-slot-solid.svg');
+}
+
+#box4 {
+    background-image: linear-gradient(rgba(255, 99, 71, 0.9), rgba(255, 99, 71, 0.9)), url('../res/pen-to-square-solid.svg');
+}
+
+.add-btn {
+    float: left;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    background: royalblue;
+    color: white;
+    font-weight: 900;
+}
+
+/* main end */
+
+/* table start */
+.table {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5rem;
+    box-shadow: 2px 2px 3px gray, -2px -2px 3px gray;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.table td {
+    background: rgb(0, 0, 0, 0.1);
+}
+
+.table img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.table .vote:checked {
+    display: none;
+}
+
+.table .vote:checked~.check {
+    color: royalblue;
+    font-size: 2rem;
+    display: inline;
+}
+
+.table .check {
+    display: none;
+}
+
+.table .vote {
+    height: 2rem;
+    width: 2rem;
+}
+
+.del,
+.edit {
+    padding: 4px 10px;
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.del {
+    background: tomato;
+}
+
+.edit {
+    background: rgb(49, 198, 49);
+}
+
+/* table end */
+
+/* form start*/
+.form {
+    color: #666;
+    height: auto;
+    width: 360px;
+    box-shadow: 3px 3px 3px rgb(162, 162, 162),
+        -3px -3px 3px rgb(162, 162, 162);
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 10rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.form .req_symbol {
+    color: tomato;
+}
+
+.form .input,
+.form .button {
+    font-size: 15px;
+    padding: 4px;
+    width: 85%;
+    margin: 1rem;
+}
+
+.form .label {
+    display: block;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.form .radio {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.button {
+    background: #3c8dbc;
+    border: 1px solid #204d74;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    display: block;
+    height: 2rem;
+}
+
+.form .button:hover {
+    background: #519cc7;
+}
+
+.form h4 {
+    text-align: center;
+    margin: 1rem;
+    color: #3c8dbc;
+}
+
+.form .link1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+/* form end */
+
+/* profile panel */
+#profile-panel {
+    height: 0rem;
+    width: 18rem;
+    overflow: hidden;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    right: 2rem;
+    top: 4rem;
+    box-shadow: 2px 2px 2px gainsboro, -2px -2px 2px rgb(238, 236, 236);
+    transition: 0.5s;
+}
+
+#profile-panel img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+#profile-panel .link {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#profile-panel .link a {
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.fa-circle-xmark {
+    float: right;
+    margin: 1rem;
+    color: red;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* profile panel end */
+
+/* box */
+.box {
+    width: 21rem;
+    height: auto;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    font-size: large;
+    ;
+    box-shadow: 1px 1px 3px gray,
+        2px 2px 4px gray;
+}
+
+.box .link1 a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    background: royalblue;
+    color: white;
+    font-weight: bolder;
+}
+
+.box .link1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.box table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.box table td {
+    padding: 0.5rem;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.large-font {
+    font-size: larger;
+}
+
+/* Result Box */
+
+.result-box {
+    width: 98%;
+    margin: auto;
+    background: rgb(255, 255, 255, 0.5);
+    overflow: auto;
+    margin-bottom: 5rem;
+}
+
+.result-box .result {
+    width: 45%;
+    float: left;
+    margin: 1.8rem;
+    border: 1px solid royalblue;
+    background: #fff;
+    box-shadow: 2px 2px 3px gray,
+        -2px -2px 5px gray;
+}
+
+.result-box .myChart {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.result-title {
+    color: #3c8dbc;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* About */
+.show-about {
+    width: 80%;
+    margin: auto;
+    font-size: large;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+
+
+/* Resposive */
+
+@media (min-width:300px) and (max-width:600px) {
+    .result-box {
+        width: 98%;
+    }
+
+    .result-box .result {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    #main .info-box {
+        margin-left: 3rem;
+    }
+}
