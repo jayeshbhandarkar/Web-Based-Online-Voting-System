@@ -2,6 +2,7 @@
 
   ONLINE VOTING SYSTEM.
   ------ ------ ------
+  Web-Based Online Voting System is a digital solution that enables voters to cast their votes via internet, eliminating the need for traditional paper-based voting.
 
   ADMIN PANEL LOGIN DETAILS.
   ----- ----- ----- -------
