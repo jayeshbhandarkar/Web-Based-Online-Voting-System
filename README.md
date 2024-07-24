@@ -4,26 +4,26 @@
 The Web-Based Online Voting System is a digital solution designed to facilitate a secure and efficient voting process via the internet. This system eliminates the need for traditional paper-based voting, making the voting process more accessible and convenient.
 
 ## Project Overview
-Designed a secure and user-friendly online voting platform.
-Developed using HTML, CSS, JavaScript and backend technologies.
-Integrated authentication, and real-time updates for a seamless voting in an Organisation.
+- Designed a secure and user-friendly online voting platform.
+- Developed using HTML, CSS, JavaScript and backend technologies.
+- Integrated authentication, and real-time updates for a seamless voting in an Organisation.
 
 ## Features
-Admin Panel: Manage voters, candidates, and oversee the voting process.
-Voter Registration: Allow users to register as voters.
-Voting Process: Secure and user-friendly interface for casting votes.
-Results Tabulation: Automatic tallying and display of election results.
+- Admin Panel: Manage voters, candidates, and oversee the voting process.
+- Voter Registration: Allow users to register as voters.
+- Voting Process: Secure and user-friendly interface for casting votes.
+- Results Tabulation: Automatic tallying and display of election results.
 
 ## Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: PHP
-Database: MySQL
-Server: XAMPP
-Security: To verify the Voters, Mobile OTP Verification is used via API for enhanced security.
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database: MySQL
+- Server: XAMPP
+- Security: To verify the Voters, Mobile OTP Verification is used via API for enhanced security.
 
 ## Requirements
-XAMPP: Ensure you have XAMPP installed on your system.
-Make sure that the Apache and MySQL modules is properly working in XAMPP Control Panel.
+- XAMPP: Ensure you have XAMPP installed on your system.
+- Make sure that the Apache and MySQL modules is properly working in XAMPP Control Panel.
 
 ## Installation Steps
 
@@ -61,18 +61,19 @@ Make sure that the Apache and MySQL modules is properly working in XAMPP Control
 ```
 
 ## Usage
-Admin
-Login using the provided credentials.
-Manage voters and candidates.
-Monitor voting process and results.
-Voter
-Register on the system.
-Login with their credentials.
-Cast their vote securely.
+### Admin
+- Login using the provided credentials.
+- Manage voters and candidates.
+- Monitor voting process and results.
+
+### Voter
+- Register on the system.
+- Login with their credentials.
+- Cast their vote securely.
 
 ## Admin Panel Login Details
-Username: ssvps@gmail.com
-Password: pass@123
+- Username: ssvps@gmail.com
+- Password: pass@123
 
 ⬤ Please do ⭐ the Repository, if it helped you in anyway.
 
