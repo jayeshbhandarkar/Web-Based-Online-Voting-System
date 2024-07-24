@@ -1,31 +1,79 @@
-# Web-Based-Online-Voting-System
+# Web-Based Online Voting System
 
-  ONLINE VOTING SYSTEM.
-  ------ ------ ------
-  Web-Based Online Voting System is a digital solution that enables voters to cast their votes via internet, eliminating the need for traditional paper-based voting.
+## Introduction
+The Web-Based Online Voting System is a digital solution designed to facilitate a secure and efficient voting process via the internet. This system eliminates the need for traditional paper-based voting, making the voting process more accessible and convenient.
 
-  ADMIN PANEL LOGIN DETAILS.
-  ----- ----- ----- -------
+## Project Overview
+Designed a secure and user-friendly online voting platform.
+Developed using HTML, CSS, JavaScript and backend technologies.
+Integrated authentication, and real-time updates for a seamless voting in an Organisation.
 
-  Username: ssvps@gmail.com
-  Password: pass@123
+## Features
+Admin Panel: Manage voters, candidates, and oversee the voting process.
+Voter Registration: Allow users to register as voters.
+Voting Process: Secure and user-friendly interface for casting votes.
+Results Tabulation: Automatic tallying and display of election results.
 
+## Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: PHP
+Database: MySQL
+Server: XAMPP
+Security: To verify the Voters, Mobile OTP Verification is used via API for enhanced security.
 
-  Installation Steps for "Online Voting System".
-  ------------ ----- --- ------- ------ -------
+## Requirements
+XAMPP: Ensure you have XAMPP installed on your system.
+Make sure that the Apache and MySQL modules is properly working in XAMPP Control Panel.
 
-1) Download the Zip File.
-2) Unpack it in your projects root folder.
-3) Create Database named as "voting" and import the sql file and run, without the 
-   database the project won't run.
-4) Now Open the Xampp folder and double click on that.
-5) Click on start button on Apache and Mysql both.
-6) Now open web browser and type the "localhost" along with the project directory path.
+## Installation Steps
 
-   for eg:- localhost/votingsystem/index.php
-   --- --  
-7) Hence, the Project get Successfully Installed.
+`STEP 1` - Download the Zip File :
+```
+	Download the project zip file from the repository.
+```
+----
+`STEP 2` - Unpack the Project :
+```
+	Unpack the zip file into your project's root folder.
+```
+----
+`STEP 3` - Create Database :
+```
+	Open phpMyAdmin and create a database named voting.
+	Import the voting.sql file from the project directory into the voting database.
+```
+----
+`STEP 4` - Start XAMPP :
+```
+	Open the XAMPP Control Panel.
+	Start Apache and MySQL.
+```
+----
+`STEP 5` - Configure Project :
+```
+	Navigate to the project directory.
+	Open config.php and update database credentials if necessary.
+```
+----
+`STEP 6` - Access the System :
+```
+	Open your web browser and navigate to http://localhost/votingsystem/index.php
+```
 
-       
-    Thankyou
-     
+## Usage
+Admin
+Login using the provided credentials.
+Manage voters and candidates.
+Monitor voting process and results.
+Voter
+Register on the system.
+Login with their credentials.
+Cast their vote securely.
+
+## Admin Panel Login Details
+Username: ssvps@gmail.com
+Password: pass@123
+
+⬤ Please do ⭐ the Repository, if it helped you in anyway.
+
+Thankyou
