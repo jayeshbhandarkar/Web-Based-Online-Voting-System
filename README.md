@@ -75,6 +75,5 @@ The Web-Based Online Voting System is a digital solution designed to facilitate 
 - Username: ssvps@gmail.com
 - Password: pass@123
 
-⬤ Please do ⭐ the Repository, if it helped you in anyway.
 
-Thankyou
+⬤ Please do ⭐ the Repository, if it helped you in anyway.
