@@ -29,35 +29,35 @@ The Web-Based Online Voting System is a digital solution designed to facilitate 
 
 `STEP 1` - Download the Zip File :
 ```
-	Download the project zip file from the repository.
+	- Download the project zip file from the repository.
 ```
 ----
 `STEP 2` - Unpack the Project :
 ```
-	Unpack the zip file into your project's root folder.
+	- Unpack the zip file into your project's root folder.
 ```
 ----
 `STEP 3` - Create Database :
 ```
-	Open phpMyAdmin and create a database named voting.
-	Import the voting.sql file from the project directory into the voting database.
+	- Open phpMyAdmin and create a database named voting.
+	- Import the voting.sql file from the project directory into the voting database.
 ```
 ----
 `STEP 4` - Start XAMPP :
 ```
-	Open the XAMPP Control Panel.
-	Start Apache and MySQL.
+	- Open the XAMPP Control Panel.
+	- Start Apache and MySQL.
 ```
 ----
 `STEP 5` - Configure Project :
 ```
-	Navigate to the project directory.
-	Open config.php and update database credentials if necessary.
+	- Navigate to the project directory.
+	- Open config.php and update database credentials if necessary.
 ```
 ----
 `STEP 6` - Access the System :
 ```
-	Open your web browser and navigate to http://localhost/votingsystem/index.php
+	- Open your web browser and navigate to http://localhost/votingsystem/index.php
 ```
 
 ## Usage
