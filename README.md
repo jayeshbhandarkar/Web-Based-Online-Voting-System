@@ -1,4 +1,4 @@
-# Web-Based Online Voting System
+# Web Based Online Voting System
 
 ## Introduction
 The Web-Based Online Voting System is a digital solution designed to facilitate a secure and efficient voting process via the internet. This system eliminates the need for traditional paper-based voting, making the voting process more accessible and convenient.
